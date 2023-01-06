@@ -11,3 +11,98 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.input-area{
+  background:#ccc;
+  padding:30px;
+  width: 1000px;
+  margin:0 auto;
+  display: flex;
+}
+
+.input-area input{
+  border:none;
+  padding:3px 10px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.edit-area{
+  background:yellow;
+  padding:30px;
+  width: 1000px;
+  margin:0 auto;
+  display: flex;  
+}
+.edit-area input{
+  border:none;
+  padding:3px 10px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.edit-area select{
+  border:none;
+  padding:3px 10px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button{
+  border:none;
+  border-radius: 4px;
+  background-color:blue;
+  color:#fff;
+  padding: 3px 10px;
+  display: block;
+}
+
+.todo-area{
+  background:#efefef;
+  padding:30px;
+  width: 1000px;
+  margin:0 auto;
+}
+
+.todo-area dl{
+  display: flex;
+  border-bottom: 1px solid #bbb;
+  margin:0;
+  padding: 20px 10px;
+}
+
+.todo-area dl dt{
+  width: 30%;
+}
+.todo-area dl dd{
+  margin:0;
+}
+.todo-area dl dd.id{
+  width: 10%;
+  order:-1;
+}
+.todo-area dl dd.status{
+  width: 10%;
+}
+.todo-area dl dd.detail{
+  width: 30%;
+}
+.todo-area dl dd.add-btn{
+  width: 10%;
+}
+.todo-area dl dd.edit-btn{
+  width: 10%;
+}
+
+.filter-area{
+  background:#000;
+  padding:30px;
+  width: 1000px;
+  margin:0 auto;
+  display: flex;  
+}
+.sort-area{
+  background:red;
+  padding:30px;
+  width: 1000px;
+  margin:0 auto;
+  display: flex;  
+}
